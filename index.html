@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Buried Treasure!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script> <!-- 引入jQuery -->
+</head>
+<body>
+    <h1 id="heading">Find the Buried Treasure!</h1>
+    <img id="map" width="600" height="400" src="20160608220546573.png" alt="Treasure Map">
+    <p id="distance"></p>
+
+    <!-- 用于显示游戏场景信息 -->
+    <div id="output"></div>
+
+    <!-- 玩家信息（例如昵称和ID） -->
+    <div id="playerInfo"></div>
+
+    <!-- 游戏开始按钮 -->
+    <button id="startButton">开始寻宝!</button>
+
+    <!-- 背景音乐 -->
+    <audio id="backgroundMusic" loop>
+        <source src="music/background.mp3" type="audio/mp3">
+        您的浏览器不支持音频标签。
+    </audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
